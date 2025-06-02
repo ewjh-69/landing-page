@@ -1,10 +1,10 @@
 body {
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .section1 {
     background-color: #1F2937;
-    font-family: "Roboto", sans-serif;
 }
 
 /* 1st section header */
@@ -58,7 +58,7 @@ li {
     margin-bottom: 10px;
 }
 
-.image {
+.section1 .image {
     color: #F9FAF8;
     background-color: grey;
     display: flex;
@@ -76,3 +76,91 @@ button {
     font-weight: bold;
 }
 
+/* 2nd section */
+
+.section2 .info {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-top: 30px;
+}
+
+.section2 .container {
+    display: flex;
+    padding: 50px 300px 100px;
+    gap: 50px;
+}
+
+.section2 .item {
+    flex: 1;
+}
+
+.section2 .image {
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.section2 .text {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* 3rd section */
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 100px 300px 100px;
+}
+
+.section3 .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section3 .name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 4th section */
+
+.section4 {
+    padding: 100px 200px 100px;
+}
+
+.section4 .container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+
+.section4 .text1 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section4 .text2 {
+    color: white;
+    font-size: 14px;
+}
+
+.section4 button {
+    border: 1px solid white;
+}
+
+/* Footer */
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
